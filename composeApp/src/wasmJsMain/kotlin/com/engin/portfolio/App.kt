@@ -30,6 +30,7 @@ import com.engin.portfolio.thene.EnginPortfolioTheme
 import com.engin.portfolio.thene.PortfolioColors
 import com.engin.portfolio.thene.getTypography
 import enginportfolio.composeapp.generated.resources.Res
+import enginportfolio.composeapp.generated.resources.employee_live_tracking
 import enginportfolio.composeapp.generated.resources.hizir_cay
 
 @OptIn(ExperimentalLayoutApi::class)
@@ -106,9 +107,9 @@ fun App() {
                     )
                     ProjectCard(
                         modifier = Modifier.weight(1f).padding(12.dp),
-                        rightLink = "https://apps.apple.com/us/app/h%C4%B1z%C4%B1r-%C3%A7ay/id6680188775",
-                        leftLink = "https://play.google.com/store/apps/details?id=com.hizirglobal.hizircay",
-                        drawable = Res.drawable.hizir_cay,
+                        rightLink = "https://play.google.com/store/apps/details?id=com.hakmar.employeelivetracking&hl=en",
+                        leftLink = "https://play.google.com/store/apps/details?id=com.hakmar.employeelivetracking&hl=en",
+                        drawable = Res.drawable.employee_live_tracking,
                         onClick = { uriHandler.openUri(it) }
                     )
                 }
